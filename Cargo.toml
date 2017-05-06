@@ -1,0 +1,15 @@
+[package]
+name = "owm_server"
+version = "0.1.0"
+authors = ["Andrew Chin <achin@eminence32.net>"]
+
+[dependencies]
+reqwest = "0.5.1"            # higher level HTTP client library
+
+serde = "0.9"                       # A generic serialization/deserialization framework
+serde_json = "0.9"                  # A JSON serialization file format
+serde_derive = "0.9"                # Macros 1.1 implementation of #[derive(Serialize, Deserialize)]
+hyper = "0.10"
+
+time = "0.1.37"  
+
